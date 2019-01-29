@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FCAB3B522007DD4002F44DC /* Initial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3B422007DD4002F44DC /* Initial.storyboard */; };
+		3FCAB3B722007F02002F44DC /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3B622007F02002F44DC /* Favorites.storyboard */; };
+		3FCAB3B92200831C002F44DC /* Shared.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3B82200831C002F44DC /* Shared.storyboard */; };
+		3FCAB3BD220083D1002F44DC /* PhraseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAB3BB220083D1002F44DC /* PhraseTableViewCell.swift */; };
+		3FCAB3BE220083D1002F44DC /* PhraseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3BC220083D1002F44DC /* PhraseTableViewCell.xib */; };
+		3FCAB3C022008FB1002F44DC /* Create.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3BF22008FB1002F44DC /* Create.storyboard */; };
+		3FCAB3C222009190002F44DC /* Details.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3C122009190002F44DC /* Details.storyboard */; };
 		602ED302220071BE004EF264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602ED301220071BE004EF264 /* AppDelegate.swift */; };
 		602ED304220071BE004EF264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602ED303220071BE004EF264 /* ViewController.swift */; };
 		602ED307220071BE004EF264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602ED305220071BE004EF264 /* Main.storyboard */; };
@@ -15,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FCAB3B422007DD4002F44DC /* Initial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Initial.storyboard; sourceTree = "<group>"; };
+		3FCAB3B622007F02002F44DC /* Favorites.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
+		3FCAB3B82200831C002F44DC /* Shared.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shared.storyboard; sourceTree = "<group>"; };
+		3FCAB3BB220083D1002F44DC /* PhraseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseTableViewCell.swift; sourceTree = "<group>"; };
+		3FCAB3BC220083D1002F44DC /* PhraseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhraseTableViewCell.xib; sourceTree = "<group>"; };
+		3FCAB3BF22008FB1002F44DC /* Create.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Create.storyboard; sourceTree = "<group>"; };
+		3FCAB3C122009190002F44DC /* Details.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Details.storyboard; sourceTree = "<group>"; };
 		602ED2FE220071BE004EF264 /* Propoma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Propoma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		602ED301220071BE004EF264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		602ED303220071BE004EF264 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +49,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FCAB3B322007B7F002F44DC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				602ED30A220071C5004EF264 /* LaunchScreen.storyboard */,
+				602ED305220071BE004EF264 /* Main.storyboard */,
+				3FCAB3B422007DD4002F44DC /* Initial.storyboard */,
+				3FCAB3B622007F02002F44DC /* Favorites.storyboard */,
+				3FCAB3B82200831C002F44DC /* Shared.storyboard */,
+				3FCAB3BF22008FB1002F44DC /* Create.storyboard */,
+				3FCAB3C122009190002F44DC /* Details.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3FCAB3BA22008342002F44DC /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				3FCAB3BB220083D1002F44DC /* PhraseTableViewCell.swift */,
+				3FCAB3BC220083D1002F44DC /* PhraseTableViewCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
 		602ED2F5220071BE004EF264 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +91,11 @@
 		602ED300220071BE004EF264 /* Propoma */ = {
 			isa = PBXGroup;
 			children = (
+				3FCAB3BA22008342002F44DC /* Xibs */,
+				3FCAB3B322007B7F002F44DC /* Storyboards */,
 				602ED301220071BE004EF264 /* AppDelegate.swift */,
 				602ED303220071BE004EF264 /* ViewController.swift */,
-				602ED305220071BE004EF264 /* Main.storyboard */,
 				602ED308220071C5004EF264 /* Assets.xcassets */,
-				602ED30A220071C5004EF264 /* LaunchScreen.storyboard */,
 				602ED30D220071C5004EF264 /* Info.plist */,
 			);
 			path = Propoma;
@@ -125,6 +162,12 @@
 				602ED30C220071C5004EF264 /* LaunchScreen.storyboard in Resources */,
 				602ED309220071C5004EF264 /* Assets.xcassets in Resources */,
 				602ED307220071BE004EF264 /* Main.storyboard in Resources */,
+				3FCAB3BE220083D1002F44DC /* PhraseTableViewCell.xib in Resources */,
+				3FCAB3C022008FB1002F44DC /* Create.storyboard in Resources */,
+				3FCAB3B522007DD4002F44DC /* Initial.storyboard in Resources */,
+				3FCAB3B722007F02002F44DC /* Favorites.storyboard in Resources */,
+				3FCAB3C222009190002F44DC /* Details.storyboard in Resources */,
+				3FCAB3B92200831C002F44DC /* Shared.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				602ED304220071BE004EF264 /* ViewController.swift in Sources */,
+				3FCAB3BD220083D1002F44DC /* PhraseTableViewCell.swift in Sources */,
 				602ED302220071BE004EF264 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4Q9SUUL4ZR;
+				DEVELOPMENT_TEAM = GRY7WP8AQR;
 				INFOPLIST_FILE = Propoma/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4Q9SUUL4ZR;
+				DEVELOPMENT_TEAM = GRY7WP8AQR;
 				INFOPLIST_FILE = Propoma/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
