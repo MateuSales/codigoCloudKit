@@ -22,42 +22,18 @@ class Phrase {
         self.recordName = record["recordName"] as? String
     }
     
-    func toCKRecord() -> CKRecord {
+    func toCKRecord(with zone: CKRecordZone?) -> CKRecord {
+        var recordID: CKRecord.ID
         if self.recordName == nil {
             self.recordName = UUID().uuidString
         }
-        let record: CKRecord = CKRecord(recordType: "Phrase", recordID: CKRecord.ID(recordName: self.recordName!))
+        if zone == nil {
+            recordID = CKRecord.ID(recordName: self.recordName!)
+        } else {
+            recordID = CKRecord.ID(recordName: self.recordName!, zoneID: zone!.zoneID)
+        }
+        let record: CKRecord = CKRecord(recordType: "Phrase", recordID: recordID)
         record["content"] = self.content as? CKRecordValue
         return record
-    }
-    
-    func favorite(at zone: CKRecordZone, on container: CKContainer) {
-        saveAsRecord(at: zone, on: container.database(with: .private), completion: nil)
-    }
-    
-    func create(at zone: CKRecordZone, on container: CKContainer) {
-        saveAsRecord(at: zone, on: container.database(with: .public)) {
-            self.favorite(at: zone, on: container)
-        }
-    }
-    
-    func removeFromFavorite(at zone: CKRecordZone, on container: CKContainer) {
-        guard let recordName = self.recordName else { return }
-        container.database(with: .private).delete(withRecordID: CKRecord.ID(recordName: recordName, zoneID: zone.zoneID)) { (recordID, error) in
-            guard error == nil, let recordID = recordID else {
-                print(error)
-                return
-            }
-        }
-    }
-    
-    func saveAsRecord(at zone: CKRecordZone, on database: CKDatabase, completion: (()->Void)?) {
-        let record = self.toCKRecord()
-        database.save(record) { (record, error) in
-            guard error == nil, let record = record else {
-                print(error)
-                return
-            }
-        }
     }
 }
