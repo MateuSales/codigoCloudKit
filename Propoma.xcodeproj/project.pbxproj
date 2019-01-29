@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300BFC0222007B16001CD0BE /* Phrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BFC0122007B16001CD0BE /* Phrase.swift */; };
+		300BFC0422008370001CD0BE /* PhraseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BFC0322008370001CD0BE /* PhraseTest.swift */; };
 		602ED302220071BE004EF264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602ED301220071BE004EF264 /* AppDelegate.swift */; };
 		602ED304220071BE004EF264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602ED303220071BE004EF264 /* ViewController.swift */; };
 		602ED307220071BE004EF264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602ED305220071BE004EF264 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		300BFC0122007B16001CD0BE /* Phrase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrase.swift; sourceTree = "<group>"; };
+		300BFC0322008370001CD0BE /* PhraseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseTest.swift; sourceTree = "<group>"; };
 		602ED2FE220071BE004EF264 /* Propoma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Propoma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		602ED301220071BE004EF264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		602ED303220071BE004EF264 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		300BFC0022007B04001CD0BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				300BFC0122007B16001CD0BE /* Phrase.swift */,
+				300BFC0322008370001CD0BE /* PhraseTest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		602ED2F5220071BE004EF264 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +67,7 @@
 		602ED300220071BE004EF264 /* Propoma */ = {
 			isa = PBXGroup;
 			children = (
+				300BFC0022007B04001CD0BE /* Model */,
 				602ED301220071BE004EF264 /* AppDelegate.swift */,
 				602ED303220071BE004EF264 /* ViewController.swift */,
 				602ED305220071BE004EF264 /* Main.storyboard */,
@@ -135,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				300BFC0222007B16001CD0BE /* Phrase.swift in Sources */,
 				602ED304220071BE004EF264 /* ViewController.swift in Sources */,
+				300BFC0422008370001CD0BE /* PhraseTest.swift in Sources */,
 				602ED302220071BE004EF264 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,8 +298,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4Q9SUUL4ZR;
+				DEVELOPMENT_TEAM = GRY7WP8AQR;
 				INFOPLIST_FILE = Propoma/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +308,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mateussales.Propoma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,8 +318,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4Q9SUUL4ZR;
+				DEVELOPMENT_TEAM = GRY7WP8AQR;
 				INFOPLIST_FILE = Propoma/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +328,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mateussales.Propoma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
