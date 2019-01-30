@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FCAB3B522007DD4002F44DC /* Initial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3B422007DD4002F44DC /* Initial.storyboard */; };
-		3FCAB3B722007F02002F44DC /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3B622007F02002F44DC /* Favorites.storyboard */; };
-		3FCAB3B92200831C002F44DC /* Shared.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3B82200831C002F44DC /* Shared.storyboard */; };
+		3F0435572200E31600A3273B /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0435562200E31600A3273B /* CustomTabBarController.swift */; };
+		3F0435592201509600A3273B /* Create.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0435582201509600A3273B /* Create.storyboard */; };
+		3F04355B220151C700A3273B /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04355A220151C700A3273B /* CreateViewController.swift */; };
+		3F04355E2201556600A3273B /* PhraseCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04355D2201556600A3273B /* PhraseCellDelegate.swift */; };
 		3FCAB3BD220083D1002F44DC /* PhraseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAB3BB220083D1002F44DC /* PhraseTableViewCell.swift */; };
 		3FCAB3BE220083D1002F44DC /* PhraseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3BC220083D1002F44DC /* PhraseTableViewCell.xib */; };
-		3FCAB3C022008FB1002F44DC /* Create.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3BF22008FB1002F44DC /* Create.storyboard */; };
-		3FCAB3C222009190002F44DC /* Details.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3C122009190002F44DC /* Details.storyboard */; };
+		3FCAB3C422009237002F44DC /* Base.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3C322009237002F44DC /* Base.storyboard */; };
+		3FCAB3C7220092F2002F44DC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAB3C6220092F2002F44DC /* BaseViewController.swift */; };
+		3FCAB3C922009969002F44DC /* Intermediate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3C822009969002F44DC /* Intermediate.storyboard */; };
+		3FCAB3CB22009D7C002F44DC /* IntermediateNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAB3CA22009D7C002F44DC /* IntermediateNavController.swift */; };
+		3FCAB3CE2200A032002F44DC /* ControllerMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAB3CD2200A032002F44DC /* ControllerMode.swift */; };
 		602ED302220071BE004EF264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602ED301220071BE004EF264 /* AppDelegate.swift */; };
 		602ED304220071BE004EF264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602ED303220071BE004EF264 /* ViewController.swift */; };
 		602ED307220071BE004EF264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602ED305220071BE004EF264 /* Main.storyboard */; };
@@ -22,13 +26,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3FCAB3B422007DD4002F44DC /* Initial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Initial.storyboard; sourceTree = "<group>"; };
-		3FCAB3B622007F02002F44DC /* Favorites.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
-		3FCAB3B82200831C002F44DC /* Shared.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shared.storyboard; sourceTree = "<group>"; };
+		3F0435562200E31600A3273B /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		3F0435582201509600A3273B /* Create.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Create.storyboard; sourceTree = "<group>"; };
+		3F04355A220151C700A3273B /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		3F04355D2201556600A3273B /* PhraseCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseCellDelegate.swift; sourceTree = "<group>"; };
 		3FCAB3BB220083D1002F44DC /* PhraseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseTableViewCell.swift; sourceTree = "<group>"; };
 		3FCAB3BC220083D1002F44DC /* PhraseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhraseTableViewCell.xib; sourceTree = "<group>"; };
-		3FCAB3BF22008FB1002F44DC /* Create.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Create.storyboard; sourceTree = "<group>"; };
-		3FCAB3C122009190002F44DC /* Details.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Details.storyboard; sourceTree = "<group>"; };
+		3FCAB3C322009237002F44DC /* Base.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.storyboard; sourceTree = "<group>"; };
+		3FCAB3C6220092F2002F44DC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3FCAB3C822009969002F44DC /* Intermediate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intermediate.storyboard; sourceTree = "<group>"; };
+		3FCAB3CA22009D7C002F44DC /* IntermediateNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateNavController.swift; sourceTree = "<group>"; };
+		3FCAB3CD2200A032002F44DC /* ControllerMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerMode.swift; sourceTree = "<group>"; };
 		602ED2FE220071BE004EF264 /* Propoma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Propoma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		602ED301220071BE004EF264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		602ED303220071BE004EF264 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,16 +57,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F04355C2201555300A3273B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3F04355D2201556600A3273B /* PhraseCellDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		3FCAB3B322007B7F002F44DC /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				602ED30A220071C5004EF264 /* LaunchScreen.storyboard */,
 				602ED305220071BE004EF264 /* Main.storyboard */,
-				3FCAB3B422007DD4002F44DC /* Initial.storyboard */,
-				3FCAB3B622007F02002F44DC /* Favorites.storyboard */,
-				3FCAB3B82200831C002F44DC /* Shared.storyboard */,
-				3FCAB3BF22008FB1002F44DC /* Create.storyboard */,
-				3FCAB3C122009190002F44DC /* Details.storyboard */,
+				3FCAB3C322009237002F44DC /* Base.storyboard */,
+				3FCAB3C822009969002F44DC /* Intermediate.storyboard */,
+				3F0435582201509600A3273B /* Create.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -70,6 +84,25 @@
 				3FCAB3BC220083D1002F44DC /* PhraseTableViewCell.xib */,
 			);
 			path = Xibs;
+			sourceTree = "<group>";
+		};
+		3FCAB3C5220092CF002F44DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FCAB3C6220092F2002F44DC /* BaseViewController.swift */,
+				3FCAB3CA22009D7C002F44DC /* IntermediateNavController.swift */,
+				3F0435562200E31600A3273B /* CustomTabBarController.swift */,
+				3F04355A220151C700A3273B /* CreateViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3FCAB3CC2200A027002F44DC /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				3FCAB3CD2200A032002F44DC /* ControllerMode.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 		602ED2F5220071BE004EF264 = {
@@ -91,8 +124,11 @@
 		602ED300220071BE004EF264 /* Propoma */ = {
 			isa = PBXGroup;
 			children = (
+				3F04355C2201555300A3273B /* Protocols */,
+				3FCAB3CC2200A027002F44DC /* Enums */,
 				3FCAB3BA22008342002F44DC /* Xibs */,
 				3FCAB3B322007B7F002F44DC /* Storyboards */,
+				3FCAB3C5220092CF002F44DC /* Controllers */,
 				602ED301220071BE004EF264 /* AppDelegate.swift */,
 				602ED303220071BE004EF264 /* ViewController.swift */,
 				602ED308220071C5004EF264 /* Assets.xcassets */,
@@ -163,11 +199,9 @@
 				602ED309220071C5004EF264 /* Assets.xcassets in Resources */,
 				602ED307220071BE004EF264 /* Main.storyboard in Resources */,
 				3FCAB3BE220083D1002F44DC /* PhraseTableViewCell.xib in Resources */,
-				3FCAB3C022008FB1002F44DC /* Create.storyboard in Resources */,
-				3FCAB3B522007DD4002F44DC /* Initial.storyboard in Resources */,
-				3FCAB3B722007F02002F44DC /* Favorites.storyboard in Resources */,
-				3FCAB3C222009190002F44DC /* Details.storyboard in Resources */,
-				3FCAB3B92200831C002F44DC /* Shared.storyboard in Resources */,
+				3FCAB3C922009969002F44DC /* Intermediate.storyboard in Resources */,
+				3FCAB3C422009237002F44DC /* Base.storyboard in Resources */,
+				3F0435592201509600A3273B /* Create.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,8 +212,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F04355B220151C700A3273B /* CreateViewController.swift in Sources */,
 				602ED304220071BE004EF264 /* ViewController.swift in Sources */,
+				3F0435572200E31600A3273B /* CustomTabBarController.swift in Sources */,
+				3FCAB3CB22009D7C002F44DC /* IntermediateNavController.swift in Sources */,
+				3FCAB3CE2200A032002F44DC /* ControllerMode.swift in Sources */,
+				3FCAB3C7220092F2002F44DC /* BaseViewController.swift in Sources */,
 				3FCAB3BD220083D1002F44DC /* PhraseTableViewCell.swift in Sources */,
+				3F04355E2201556600A3273B /* PhraseCellDelegate.swift in Sources */,
 				602ED302220071BE004EF264 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
