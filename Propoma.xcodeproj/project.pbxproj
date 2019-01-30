@@ -27,6 +27,7 @@
 		602ED307220071BE004EF264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602ED305220071BE004EF264 /* Main.storyboard */; };
 		602ED309220071C5004EF264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602ED308220071C5004EF264 /* Assets.xcassets */; };
 		602ED30C220071C5004EF264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602ED30A220071C5004EF264 /* LaunchScreen.storyboard */; };
+		602ED3192200A2E3004EF264 /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602ED3182200A2E3004EF264 /* Code.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,8 @@
 		602ED308220071C5004EF264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		602ED30B220071C5004EF264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		602ED30D220071C5004EF264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602ED31322007B73004EF264 /* Propoma.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Propoma.entitlements; sourceTree = "<group>"; };
+		602ED3182200A2E3004EF264 /* Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,7 @@
 		602ED300220071BE004EF264 /* Propoma */ = {
 			isa = PBXGroup;
 			children = (
+				602ED3172200A2CC004EF264 /* Fetch */,
 				300BFC0722009EF0001CD0BE /* CloudKit Helper */,
 				3F04355C2201555300A3273B /* Protocols */,
 				3FCAB3CC2200A027002F44DC /* Enums */,
@@ -176,6 +180,14 @@
 				602ED30D220071C5004EF264 /* Info.plist */,
 			);
 			path = Propoma;
+			sourceTree = "<group>";
+		};
+		602ED3172200A2CC004EF264 /* Fetch */ = {
+			isa = PBXGroup;
+			children = (
+				602ED3182200A2E3004EF264 /* Code.swift */,
+			);
+			path = Fetch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +283,7 @@
 				3F04355E2201556600A3273B /* PhraseCellDelegate.swift in Sources */,
 				300BFC0222007B16001CD0BE /* Phrase.swift in Sources */,
 				602ED304220071BE004EF264 /* ViewController.swift in Sources */,
+				602ED3192200A2E3004EF264 /* Code.swift in Sources */,
 				300BFC0422008370001CD0BE /* PhraseTest.swift in Sources */,
 				300BFC0622009EEC001CD0BE /* CloudKitHelper.swift in Sources */,
 				602ED302220071BE004EF264 /* AppDelegate.swift in Sources */,
