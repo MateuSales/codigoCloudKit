@@ -22,7 +22,7 @@ class Phrase {
         self.recordName = record["recordName"] as? String
     }
     
-    func toCKRecord(with zone: CKRecordZone?) -> CKRecord {
+    func toCKRecord(with zone: CKRecordZone? = nil) -> CKRecord {
         var recordID: CKRecord.ID
         if self.recordName == nil {
             self.recordName = UUID().uuidString
