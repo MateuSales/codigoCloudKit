@@ -27,13 +27,13 @@ class PhraseTableViewCell: UITableViewCell {
         // Initialization code
         
         if let mode = self.mode {
-            //self.btShare.isHidden = mode.canShare
+            self.btShare.isHidden = mode.canShare
         }
         
     }
     
     @IBAction func didTapBtFavorite(_ sender: Any) {
-        self.delegate?.phraseDidTapFavorite(indepath: self.indexPath)
+        self.delegate?.phraseDidTapFavorite(indexPath: self.indexPath)
         
     }
     @IBAction func didTapBtShare(_ sender: Any) {

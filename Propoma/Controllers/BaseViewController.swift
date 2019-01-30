@@ -45,6 +45,19 @@ class BaseViewController: UIViewController {
             //self.navigationController?.navigationBar.topItem?.title = mode.title
             
             
+        } else {
+            self.mode = ControllerMode(rawValue: 0)
+            
+            if self.mode!.canCreate {
+                self.bbiCreate = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(didTapBbiCreate(_:)))
+                self.navigationItem.rightBarButtonItem = self.bbiCreate
+            }
+            //            self.navigationController?.navigationBar.topItem?.title = mode.title
+            //            self.title = mode.title
+            
+            print("Mode Title: \(self.mode!.title)")
+            self.navigationItem.title = self.mode!.title
+            
         }
     }
     
@@ -98,12 +111,12 @@ extension BaseViewController: UITableViewDelegate, UITableViewDataSource {
 
 extension BaseViewController: PhraseCellDelegate {
     
-    func phraseDidTapFavorite(indepath: IndexPath) {
-        
+    func phraseDidTapFavorite(indexPath: IndexPath) {
+        print("Celula: \(indexPath.row)")
     }
     
     func phraseDidTapShare(indexPath: IndexPath) {
-        
+        print("Celula: \(indexPath.row)")
     }
     
     

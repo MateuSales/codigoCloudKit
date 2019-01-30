@@ -9,6 +9,6 @@
 import Foundation
 
 protocol PhraseCellDelegate {
-    func phraseDidTapFavorite(indepath: IndexPath) -> Void
+    func phraseDidTapFavorite(indexPath: IndexPath) -> Void
     func phraseDidTapShare(indexPath: IndexPath) -> Void
 }
