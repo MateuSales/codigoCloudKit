@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0020C222007C66002AA030 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0020C122007C66002AA030 /* CloudKit.framework */; };
+		3F0435572200E31600A3273B /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0435562200E31600A3273B /* CustomTabBarController.swift */; };
+		3F0435592201509600A3273B /* Create.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0435582201509600A3273B /* Create.storyboard */; };
+		3F04355B220151C700A3273B /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04355A220151C700A3273B /* CreateViewController.swift */; };
+		3F04355E2201556600A3273B /* PhraseCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04355D2201556600A3273B /* PhraseCellDelegate.swift */; };
+		3FCAB3BD220083D1002F44DC /* PhraseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAB3BB220083D1002F44DC /* PhraseTableViewCell.swift */; };
+		3FCAB3BE220083D1002F44DC /* PhraseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3BC220083D1002F44DC /* PhraseTableViewCell.xib */; };
+		3FCAB3C422009237002F44DC /* Base.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3C322009237002F44DC /* Base.storyboard */; };
+		3FCAB3C7220092F2002F44DC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAB3C6220092F2002F44DC /* BaseViewController.swift */; };
+		3FCAB3C922009969002F44DC /* Intermediate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAB3C822009969002F44DC /* Intermediate.storyboard */; };
+		3FCAB3CB22009D7C002F44DC /* IntermediateNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAB3CA22009D7C002F44DC /* IntermediateNavController.swift */; };
+		3FCAB3CE2200A032002F44DC /* ControllerMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAB3CD2200A032002F44DC /* ControllerMode.swift */; };
+		300BFC0222007B16001CD0BE /* Phrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BFC0122007B16001CD0BE /* Phrase.swift */; };
+		300BFC0422008370001CD0BE /* PhraseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BFC0322008370001CD0BE /* PhraseTest.swift */; };
+		300BFC0622009EEC001CD0BE /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BFC0522009EEC001CD0BE /* CloudKitHelper.swift */; };
 		602ED302220071BE004EF264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602ED301220071BE004EF264 /* AppDelegate.swift */; };
 		602ED304220071BE004EF264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602ED303220071BE004EF264 /* ViewController.swift */; };
 		602ED307220071BE004EF264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602ED305220071BE004EF264 /* Main.storyboard */; };
@@ -16,6 +31,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F0435562200E31600A3273B /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		3F0435582201509600A3273B /* Create.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Create.storyboard; sourceTree = "<group>"; };
+		3F04355A220151C700A3273B /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		3F04355D2201556600A3273B /* PhraseCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseCellDelegate.swift; sourceTree = "<group>"; };
+		3FCAB3BB220083D1002F44DC /* PhraseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseTableViewCell.swift; sourceTree = "<group>"; };
+		3FCAB3BC220083D1002F44DC /* PhraseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhraseTableViewCell.xib; sourceTree = "<group>"; };
+		3FCAB3C322009237002F44DC /* Base.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.storyboard; sourceTree = "<group>"; };
+		3FCAB3C6220092F2002F44DC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3FCAB3C822009969002F44DC /* Intermediate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intermediate.storyboard; sourceTree = "<group>"; };
+		3FCAB3CA22009D7C002F44DC /* IntermediateNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateNavController.swift; sourceTree = "<group>"; };
+		3FCAB3CD2200A032002F44DC /* ControllerMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerMode.swift; sourceTree = "<group>"; };
+		300BFC0122007B16001CD0BE /* Phrase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrase.swift; sourceTree = "<group>"; };
+		300BFC0322008370001CD0BE /* PhraseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseTest.swift; sourceTree = "<group>"; };
+		2B0020BF22007BCE002AA030 /* Propoma.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Propoma.entitlements; sourceTree = "<group>"; };
+		2B0020C122007C66002AA030 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		300BFC0122007B16001CD0BE /* Phrase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrase.swift; sourceTree = "<group>"; };
+		300BFC0322008370001CD0BE /* PhraseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseTest.swift; sourceTree = "<group>"; };
+		300BFC0522009EEC001CD0BE /* CloudKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitHelper.swift; sourceTree = "<group>"; };
 		602ED2FE220071BE004EF264 /* Propoma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Propoma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		602ED301220071BE004EF264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		602ED303220071BE004EF264 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,18 +65,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0020C222007C66002AA030 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B0020C022007C66002AA030 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B0020C122007C66002AA030 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+      sourceTree = "<group>";
+		};
+		3F04355C2201555300A3273B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3F04355D2201556600A3273B /* PhraseCellDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3FCAB3B322007B7F002F44DC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				602ED30A220071C5004EF264 /* LaunchScreen.storyboard */,
+				602ED305220071BE004EF264 /* Main.storyboard */,
+				3FCAB3C322009237002F44DC /* Base.storyboard */,
+				3FCAB3C822009969002F44DC /* Intermediate.storyboard */,
+				3F0435582201509600A3273B /* Create.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3FCAB3BA22008342002F44DC /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				3FCAB3BB220083D1002F44DC /* PhraseTableViewCell.swift */,
+				3FCAB3BC220083D1002F44DC /* PhraseTableViewCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		3FCAB3C5220092CF002F44DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FCAB3C6220092F2002F44DC /* BaseViewController.swift */,
+				3FCAB3CA22009D7C002F44DC /* IntermediateNavController.swift */,
+				3F0435562200E31600A3273B /* CustomTabBarController.swift */,
+				3F04355A220151C700A3273B /* CreateViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3FCAB3CC2200A027002F44DC /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				3FCAB3CD2200A032002F44DC /* ControllerMode.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		300BFC0022007B04001CD0BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				300BFC0122007B16001CD0BE /* Phrase.swift */,
+				300BFC0322008370001CD0BE /* PhraseTest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		300BFC0722009EF0001CD0BE /* CloudKit Helper */ = {
+			isa = PBXGroup;
+			children = (
+				300BFC0522009EEC001CD0BE /* CloudKitHelper.swift */,
+			);
+			path = "CloudKit Helper";
+			sourceTree = "<group>";
+		};
 		602ED2F5220071BE004EF264 = {
 			isa = PBXGroup;
 			children = (
 				602ED300220071BE004EF264 /* Propoma */,
 				602ED2FF220071BE004EF264 /* Products */,
-				602ED31422007B77004EF264 /* Frameworks */,
+				2B0020C022007C66002AA030 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,22 +166,20 @@
 			isa = PBXGroup;
 			children = (
 				602ED3172200A2CC004EF264 /* Fetch */,
-				602ED31322007B73004EF264 /* Propoma.entitlements */,
+				300BFC0722009EF0001CD0BE /* CloudKit Helper */,
+				3F04355C2201555300A3273B /* Protocols */,
+				3FCAB3CC2200A027002F44DC /* Enums */,
+				3FCAB3BA22008342002F44DC /* Xibs */,
+				3FCAB3B322007B7F002F44DC /* Storyboards */,
+				3FCAB3C5220092CF002F44DC /* Controllers */,
+				300BFC0022007B04001CD0BE /* Model */,
+				2B0020BF22007BCE002AA030 /* Propoma.entitlements */,
 				602ED301220071BE004EF264 /* AppDelegate.swift */,
 				602ED303220071BE004EF264 /* ViewController.swift */,
-				602ED305220071BE004EF264 /* Main.storyboard */,
 				602ED308220071C5004EF264 /* Assets.xcassets */,
-				602ED30A220071C5004EF264 /* LaunchScreen.storyboard */,
 				602ED30D220071C5004EF264 /* Info.plist */,
 			);
 			path = Propoma;
-			sourceTree = "<group>";
-		};
-		602ED31422007B77004EF264 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		602ED3172200A2CC004EF264 /* Fetch */ = {
@@ -122,7 +227,7 @@
 								enabled = 1;
 							};
 							com.apple.iCloud = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -154,6 +259,10 @@
 				602ED30C220071C5004EF264 /* LaunchScreen.storyboard in Resources */,
 				602ED309220071C5004EF264 /* Assets.xcassets in Resources */,
 				602ED307220071BE004EF264 /* Main.storyboard in Resources */,
+				3FCAB3BE220083D1002F44DC /* PhraseTableViewCell.xib in Resources */,
+				3FCAB3C922009969002F44DC /* Intermediate.storyboard in Resources */,
+				3FCAB3C422009237002F44DC /* Base.storyboard in Resources */,
+				3F0435592201509600A3273B /* Create.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,8 +273,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F04355B220151C700A3273B /* CreateViewController.swift in Sources */,
+				602ED304220071BE004EF264 /* ViewController.swift in Sources */,
+				3F0435572200E31600A3273B /* CustomTabBarController.swift in Sources */,
+				3FCAB3CB22009D7C002F44DC /* IntermediateNavController.swift in Sources */,
+				3FCAB3CE2200A032002F44DC /* ControllerMode.swift in Sources */,
+				3FCAB3C7220092F2002F44DC /* BaseViewController.swift in Sources */,
+				3FCAB3BD220083D1002F44DC /* PhraseTableViewCell.swift in Sources */,
+				3F04355E2201556600A3273B /* PhraseCellDelegate.swift in Sources */,
+				300BFC0222007B16001CD0BE /* Phrase.swift in Sources */,
 				602ED304220071BE004EF264 /* ViewController.swift in Sources */,
 				602ED3192200A2E3004EF264 /* Code.swift in Sources */,
+				300BFC0422008370001CD0BE /* PhraseTest.swift in Sources */,
+				300BFC0622009EEC001CD0BE /* CloudKitHelper.swift in Sources */,
 				602ED302220071BE004EF264 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Propoma/Propoma.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GRY7WP8AQR;
 				INFOPLIST_FILE = Propoma/Info.plist;
@@ -320,8 +441,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mateussales.Propoma1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitor.Propoma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -332,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Propoma/Propoma.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GRY7WP8AQR;
 				INFOPLIST_FILE = Propoma/Info.plist;
@@ -339,8 +462,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mateussales.Propoma1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitor.Propoma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
